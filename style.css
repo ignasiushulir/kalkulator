@@ -35,3 +35,8 @@ button{
 all-clear, .zero-btn{
   width: 50%;
 }
+.operator, .equal-sign{
+  background-color: orange;
+  }
+
+
