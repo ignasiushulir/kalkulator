@@ -42,7 +42,7 @@ button{
 
 }
 button:hover{
-  background-color:darkgrey;
+  background-color: darkgrey;
 }
 
 .operator:hover, .equal-sign:hover{
