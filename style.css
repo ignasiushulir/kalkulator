@@ -1,3 +1,6 @@
+li{
+  list-style: none;
+}
 
 .calculator{
   text-align: center;
@@ -35,18 +38,59 @@ button{
 .all-clear, .zero-btn{
   width: 50%;
 }
-
 .operator, .equal-sign{
-  background-color: orange;
-  }
-
+background-color: orange;
 }
+
 button:hover{
-  background-color: darkgrey;
+  background-color: darkgray;
+}
+.operator:hover, .equal-sign:hover{
+background-color: darkorange;
 }
 
-.operator:hover, .equal-sign:hover{
-  background-color: darkorange;
+.header{
+  background-color: #00975B;
+  color: #fff;
+  height: 120px;
+
+}
+
+.header h1{
+text-align: center;
+}
+
+.header h2{
+  text-align: center;
   }
 
+.footer{
+  background-color: #00BD72;
+  color:#fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo{
+  float: left;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-list{
+  float: left;
+  font-family: sans-serif;
+}
+
+.footer-list li{
+  padding-bottom: 20px;
+}
+
+.footer p{
+font-size: 20px;
+font-family: serif;
+float: right;
+}
+  
+  
 
